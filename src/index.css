@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+/* https://wallpapercave.com/wp/wp7227716.png */
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url(https://wallpapercave.com/wp/wp7227716.png);
+}
+
+.banner{
+  margin-bottom: 20px;
+  background: black;
+  text-align: center;
+}
+.img-banner{
+  width: 80%;
+  height: 35vh;
+  border-radius: 5px;
+  padding-bottom: 25px;
+}
+.formulario{
+  display: flex;
+  justify-content: center;
+}
+
+.form-control{
+  text-align: center;
+  width: 30%;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.btn{
+  background: black;
+  color: white;
+  text-shadow: 0 0 2px #92c2dd;
+  font-weight: 700;
+  margin-right: 30px;
+}
+.btn:hover{
+  background: #ccdac0;
+  color: #f6fdcc;
+}
+
+p{
+  color: white;
+  
+  font-weight: bold;
+}
+
+.card-ordenar{
+  display: flex;
+  justify-content: center;
+  margin-left: 29%; ;
+  width: 40%;
+  background: #341530;
+  text-shadow: 0 0 2px #1eadba;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  border-radius: 50px;
+}
+.card-ordenar:hover{
+  box-shadow: 15px 10px 20px 10px rgba(5, 9, 57, 0.273);
+  transition: all 0,7s linear;
+}
+.card{
+  
+  border: 5px solid rgb(93, 182, 196);
+  background: #000000;
+  text-shadow: 0 0 2px #1eadba;
+  color: rgb(242, 255, 100);
+  text-align: center;
+  width: 25rem;
+  height: 25rem;
+  font-weight: 500;
+}
+.card:hover{
+    box-shadow: 15px 10px 20px 10px rgba(5, 9, 57, 0.273);
+  transition: all 0,7s linear;
+}
+.overflow{
+  
+  border: 0;
+  overflow: hidden;
+}
+.img-fluid{
+  transition:  0.2s ease-in-out;
+  
+}
+.img-fluid:hover{
+  transform: scale(1.1);
+}
+
+.footer{
+  padding-top: 10px;
+  text-align: center;
+  background: black;
+}
+.img-footer{
+  width: 30%;
+  height: 17vh;
+  border-radius: 5px;
+}
